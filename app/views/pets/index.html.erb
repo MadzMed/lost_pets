@@ -1,0 +1,15 @@
+<div class="banner d-flex justify-content-center">
+  <div >
+    Welcome
+  </div>
+</div>
+
+<ul>
+  <% @pets.each do |pet| %>
+    <li>
+      <%= link_to pet.name, pet_path(pet) %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to 'create', new_pet_path %>

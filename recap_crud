@@ -1,0 +1,12 @@
+MODELE ITEMS:
+
+Action        VERB        PATH
+index:        GET         /items
+show:         GET         /items/:id
+new:          GET         /items/new
+create:       POST        /items
+edit:         GET         /items/:id/edit
+update:       PATCH/PUT   /items/:id
+destroy:      DELETE      /items/:id
+
+
